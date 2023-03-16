@@ -7,15 +7,14 @@ let result = c + d;
 console.log(result);
 
 /* second task */
-let hour = 10;
-let minute = 30;
-let second = 20;
-// console.log(hour,minute,second);
-let time = `${hour}:${minute}:${second}`;
+let hour = '10:' ;
+let minute = '30:';
+let second = '20';
+let time = hour + minute + second;
 console.log(time);
 
 /* third task */
 var num = 10;
-num = num++;
-num = ++num;
+num++;
+num++;
 console.log(num);
