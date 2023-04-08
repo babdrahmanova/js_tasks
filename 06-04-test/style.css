@@ -1,0 +1,30 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 650px;
+    line-height: 30px;
+    margin: 200px 0 0 200px;
+}
+
+.accordion-button{
+    background-color: white;
+    width: 100%;
+    border: 1px solid rgb(125, 120, 120);
+    border-radius: 8px;
+    padding: 21px;
+}
+
+.accordion-button:hover{
+    color: #0c63e4;
+    background-color: #e7f1ff;
+}
+
+.accordion-content{
+    padding-left: 10px;
+    max-height: 0;
+    border: 1px solid rgb(233 222 222);
+    border-radius: 8px;
+    overflow: hidden;
+}

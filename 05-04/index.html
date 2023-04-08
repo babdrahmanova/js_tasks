@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modal</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="bodyBg" id="bodyBackGround">
+    <button id="myBtn" type="button" class="btn btn-primary">
+      Launch demo modal
+    </button>
+  </div>
+  <!-- Modal -->
+  <div style="display:none" id="modal">
+    <div class="modal-dialog" id="modalForm">
+      <div class="modal-content" id="modalContent">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Woohoo, you're reading this text in a modal!</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" id="close">Close</button>
+          <button type="button" class="btn btn-primary" id="close">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>

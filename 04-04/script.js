@@ -12,14 +12,14 @@ for (let i = 0; i < pics.length; i++) {
 
 /* **********TASK2*********** */
 
-let elem = document.getElementsByTagName('a');
+let elements = document.getElementsByTagName('a');
 
 function showDesc() {
     alert(this.getAttribute('href'));
 }
 
-for (let i = 0; i < elem.length; i++) {
-    elem[i].onmouseenter = showDesc;
+for (let i = 0; i < elements.length; i++) {
+    elements[i].onmouseenter = showDesc;
 }
 
 /* **********TASK3*********** */
@@ -29,7 +29,7 @@ function linkStrings() {
     for (let i = 0; i < arguments.length; i++) {
         result += arguments[i]
     }
-    return result
+    return result;
 }
 console.log(linkStrings('hello ', 'world'))
 
