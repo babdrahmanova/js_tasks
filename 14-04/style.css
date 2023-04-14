@@ -1,0 +1,40 @@
+
+.width_200 {
+    width: 200px;
+
+}
+
+form{
+    border: 1px solid #232529;
+    width: 560px;
+    margin: 0 auto;
+    background-color: #DADADA;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+}
+.form_cell{
+    box-sizing: border-box;
+    opacity: 0.5;
+    border: 0.5px solid #AEAEAE;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 8px 4px;
+}
+button {
+    width: 384px;
+    background: #232529;
+    border-radius: 4px;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    margin: 15px 0 48px;
+    padding: 10px 0;
+    border: none;
+}
+
+button:hover {
+    background-color: #545556;
+    transition: background-color 0.3s;
+}
